@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moazan Waqar — Software Design Student</title>
+  <meta name="description"
+    content="Moazan Waqar — Software Design Student. Building scalable cloud-native applications with modern technologies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script defer src="https://kit.fontawesome.com/a2d9f6c8c1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">&lt;MW /&gt;</a>
+      <nav id="nav" class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#pitch">Elevator Pitch</a>
+        <a href="#contact">Contact</a>
+        <a class="btn small outline" href="assets/Moazan_Waqar_CV.pdf" target="_blank" rel="noopener">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+      </nav>
+      <button id="navToggle" class="nav-toggle"
+        aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <h1 class="hero-title">Moazan Waqar</h1>
+      <p class="subtitle">Software Design Student</p>
+      <p class="muted">Building scalable cloud-native applications with modern technologies</p>
+      <p class="chips muted sm">
+        <span>TUS Athlone</span>
+        <span>Cloud Engineer Intern @ HPE</span>
+        <span>President of Islamic Society</span>
+      </p>
+      <div class="hero-cta">
+        <a class="btn" href="#contact"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+        <a class="btn outline" href="#projects">View My Work</a>
+      </div>
+      <div class="socials">
+        <a aria-label="GitHub" href="https://github.com/moazanTUS" target="_blank" rel="noopener"><i
+            class="fa-brands fa-github"></i></a>
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/moazan-w-7b84632a0" target="_blank" rel="noopener"><i
+            class="fa-brands fa-linkedin"></i></a>
+
+      </div>
+      <a class="scroll-down" href="#about" aria-label="Scroll"><i class="fa-solid fa-angles-down"></i></a>
+    </div>
+    <div class="bg-blur"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div class="media-card">
+        <img src="assets/profile1.png" alt="Moazan Waqar profile" />
+      </div>
+      <div>
+        <h2 class="section-title">About Me</h2>
+        <p>
+          I’m a Software Design student at <strong>TUS (Technological University of the Shannon)</strong> with a passion
+          for cloud-native development and microservices architecture.
+          I have experience as a <strong>Cloud Engineer Intern at Hewlett Packard Enterprise</strong>, where I
+          contributed to a planet-spanning Edge Security team, implementing OAuth flows, service identities, token
+          vending mechanisms, and building robust CI/CD pipelines.
+          My journey combines academic studies with real-world experience in containerized applications and
+          distributed systems.
+        </p>
+        <ul class="ticks">
+          <li>Software Design student at TUS Athlone</li>
+          <li>Cloud Engineer Intern at HPE working with <strong>Go, Docker, Kubernetes</strong></li>
+          <li>Studying for Certified Kubernetes Application Developer Certification</li>
+          <li>President of Islamic Society at TUS — building community and leadership</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title center">Featured Projects</h2>
+      <p class="center muted">A showcase of my development work and technical capabilities</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="proj-card fade-up">
+          <div class="cover">
+            <img src="assets/healthcothumb.png" alt="Health Co. Gym App cover" />
+            <span class="flag"><i class="fa-solid fa-star"></i> Featured</span>
+            <span class="label"><i class="fa-solid fa-video"></i> Video Demo</span>
+          </div>
+          <div class="content">
+            <h3>Health Co. Gym App</h3>
+            <p>Designed and developed a multi-screen mobile application with secure login, clean
+              UI, and smooth navigation, focusing on responsive design and an intuitive user experience.</p>
+            <div class="tags">
+              <span>Java</span><span>App Inventor</span><span>UI/UX</span><span>OOP</span>
+            </div>
+            <div class="actions">
+              <a class="btn outline" href="https://youtu.be/9l3Gq66wnxg" target="_blank"><i
+                  class="fa-solid fa-play"></i> Watch Demo</a>
+              <a class="btn outline" href="#" data-gallery="healthco">
+                <i class="fa-solid fa-image"></i> Gallery
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="proj-card fade-up">
+          <div class="cover">
+            <img src="assets/noor2.png" alt="Noor Events Website cover" />
+            <span class="flag"><i class="fa-solid fa-star"></i> Featured</span>
+            <span class="label"><i class="fa-solid fa-images"></i> 4 images</span>
+          </div>
+          <div class="content">
+            <h3>Noor Events Website</h3>
+            <p>NoorEvents is a web platform for Islamic events in Ireland, filling the current gap in organization and
+              accessibility. It offers organizers an automated nationwide event overview to prevent overlaps, while
+              attendees enjoy a clean, user-friendly interface with map, calendar, and list views for a smooth event
+              experience.</p>
+            <div class="tags">
+              <span>React</span><span>TypeScript</span><span>CSS</span><span>Leaflet</span>
+            </div>
+            <div class="actions">
+              <a class="btn outline" href="#" data-gallery="noor"><i class="fa-solid fa-image"></i> Gallery</a>
+              </b>
+              <a class="btn small" href="https://github.com/moazanTUS/noorevents"><i class="fa-solid fa-code"></i>
+                Code</a>
+              <a class="btn small" href="https://v0-event-management-ecru.vercel.app/"><i
+                  class="fa-solid fa-up-right-from-square"></i> Visit Site</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="proj-card fade-up">
+          <div class="cover">
+            <img src="assets/athlete.png" alt="Athlete Powerlifting Data System cover" />
+            <span class="flag"><i class="fa-solid fa-star"></i> Featured</span>
+            <span class="label"><i class="fa-solid fa-video"></i> Video Demo</span>
+          </div>
+          <div class="content">
+            <h3>Athlete Powerlifting Data System</h3>
+            <p>A Python application designed to help gym enthusiasts track their exercises and calculate key metrics
+              like one-rep max. This project incorporates object-oriented programming principles to ensure a scalable
+              and maintainable design. It features a graphical user interface (GUI) built using PyQt5.</p>
+            <div class="tags">
+              <span>Python</span><span>GUI</span><span>Qt Designer</span><span>Virtual
+                Environment</span><span>OOP</span>
+            </div>
+            <div class="actions">
+              <a class="btn outline" href="https://youtu.be/z46qFHjvDHo" target="_blank"><i
+                  class="fa-solid fa-play"></i> Watch Demo</a>
+              <a class="btn outline" href="#" data-gallery="athlete">
+                <i class="fa-solid fa-image"></i> Gallery
+              </a>
+              <a class="btn small" href="https://github.com/moazanTUS/Athlete-Powerlifting-Data-System"><i
+                  class="fa-solid fa-code"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="proj-card fade-up">
+          <div class="cover">
+            <img src="assets/puzzler.png" alt="Puzzler Game cover" />
+            <span class="flag"><i class="fa-solid fa-star"></i> Featured</span>
+            <span class="label"><i class="fa-solid fa-film"></i> Game Trailer</span>
+          </div>
+          <div class="content">
+            <h3>Puzzler Game</h3>
+            <p>Developed a minimalist puzzle-platformer with smooth transitions, intuitive mechanics, and progressively
+              challenging levels focused on logic and precision.</p>
+            <div class="tags">
+              <span>Gamemaker</span><span>GML</span><span>Event based Programming</span><span>UI/UX</span>
+            </div>
+            <div class="actions">
+              <a class="btn outline" href="https://youtu.be/krk2ufNMUSc" target="_blank"><i
+                  class="fa-solid fa-play"></i> Watch Trailer</a>
+              <a class="btn outline"
+                href="https://youtube.com/playlist?list=PL4TLrXGNYgHsX4exTfmfQCvMfKvnGE-nZ&si=-FVRze8znIC5Izyj"
+                target="_blank"><i class="fa-solid fa-play"></i> Levels</a>
+              <a class="btn outline" href="#" data-gallery="puzzler">
+                <i class="fa-solid fa-image"></i> Gallery
+              </a>
+              <a class="btn small" href="assets/puzzlerr.exe" download="PuzzlerGame.exe">
+                <i class="fa-solid fa-download"></i> Download
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title center">Technical Skills</h2>
+      <p class="center muted">A comprehensive toolkit for building modern web applications</p>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Languages</h3>
+          <div class="tags">
+            <span>Python</span>
+            <span>Java</span>
+            <span>JavaScript</span>
+            <span>Go</span>
+            <span>PHP</span>
+            <span>HTML/CSS</span>
+            <span>SQL</span>
+            <span>XML</span>
+            <span>JSON</span>
+          </div>
+        </div>
+
+        <!-- Backend & APIs -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Backend & APIs</h3>
+          <div class="tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>Flask</span>
+            <span>REST APIs</span>
+            <span>Slim Framework</span>
+            <span>OAuth 2.0</span>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Frontend</h3>
+          <div class="tags">
+            <span>React</span>
+            <span>Bootstrap</span>
+            <span>DataTables</span>
+            <span>PyQt</span>
+          </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Cloud & DevOps</h3>
+          <div class="tags">
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Helm</span>
+            <span>AWS CloudWatch</span>
+            <span>Azure</span>
+            <span>CI/CD</span>
+            <span>Microservices</span>
+            <span>Terraform</span>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Databases</h3>
+          <div class="tags">
+            <span>MongoDB</span>
+            <span>MySQL</span>
+            <span>PDO</span>
+            <span>DynamoDB</span>
+          </div>
+        </div>
+
+        <!-- Monitoring & Tools -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Monitoring & Tools</h3>
+          <div class="tags">
+            <span>Humio</span>
+            <span>New Relic</span>
+            <span>OpsRamp</span>
+            <span>Jira</span>
+            <span>GitHub</span>
+            <span>Visual Studio</span>
+            <span>Unity</span>
+            <span>Confluence</span>
+          </div>
+        </div>
+
+        <!-- Methodologies -->
+        <div class="skill-card">
+          <h3><span class="dot"></span> Methodologies</h3>
+          <div class="tags">
+            <span>Agile</span>
+            <span>Waterfall</span>
+            <span>OOP</span>
+            <span>Testing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Experience & Education -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title center">Experience &amp; Education</h2>
+
+      <div class="columns">
+        <div class="col">
+          <h3 class="eyebrow"><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+
+          <article class="xp-card">
+            <header>
+              <h4>Cloud Engineer Intern</h4>
+              <p class="muted"><strong>Hewlett Packard Enterprise (HPE)</strong> • March 2025 – September 2025 • Ireland
+              </p>
+            </header>
+            <p>Part of a planet-spanning Edge Security meta-team collaborating with teams from USA and Brazil. Working
+              on implementing OAuth flows, service identities, and token vending mechanisms in a multi-cluster
+              microservices environment.</p>
+            <ul class="ticks">
+              <li>Developed CI/CD pipelines for automated builds, testing, and deployments</li>
+              <li>Managed containerized applications with Docker, Kubernetes, and Helm</li>
+              <li>Designed and executed unit, functional, and integration tests in Golang and Python</li>
+              <li>Created monitoring dashboards using Humio, AWS CloudWatch, New Relic, and OpsRamp</li>
+              <li>Built MCP for creating and managing service identities across clusters</li>
+              <li>Collaborated in Agile environment using Jira and GitHub</li>
+            </ul>
+          </article>
+
+          <article class="xp-card">
+            <header>
+              <h4>Professional Car Detailer</h4>
+              <p class="muted"><strong>Cool Waves</strong> • 2017 – 2024 • Ireland</p>
+            </header>
+            <p>Provided professional car detailing services with focus on quality and customer satisfaction.</p>
+            <ul class="ticks">
+              <li>Scheduled appointments and managed client requirements</li>
+              <li>Ensured high-quality service delivery meeting client expectations</li>
+              <li>Handled customer queries and complaints professionally</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="col">
+          <h3 class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+
+          <article class="xp-card">
+            <header>
+              <h4>Bachelor of Science in Software Design</h4>
+              <p class="muted"><strong>Technological University of the Shannon (TUS)</strong> • 2022 – 2026 • Athlone,
+                Ireland</p>
+            </header>
+            <div class="badge b-contrast">GPA: Predicted 1.1 GPA</div>
+            <ul class="ticks">
+              <li>Relevant Modules: Computational Mathematics, Object Orientation, Algorithms &amp; Data Structures,
+                Databases</li>
+              <li>President of Islamic Society — organizing events and building community</li>
+              <li>IBM Cloud Application Development Foundations specialization certified</li>
+            </ul>
+          </article>
+
+          <article class="xp-card">
+            <header>
+              <h4>Leaving Certificate</h4>
+              <p class="muted"><strong>St. Coleman’s College</strong> • 2018 – 2022 • Ireland</p>
+            </header>
+            <div class="badge b-contrast">CAO: 441 Points</div>
+          </article>
+
+          <article class="xp-card">
+            <header>
+              <h4>Junior Certificate</h4>
+              <p class="muted"><strong>Ballinrobe Community School</strong> • 2015 – 2018 • Ireland</p>
+            </header>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Elevator Pitch -->
+  <section id="pitch" class="section alt">
+    <div class="container">
+      <h2 class="section-title center">My Elevator Pitch</h2>
+      <p class="center muted">Learn more about my journey, skills, and what I bring to the table</p>
+      <div class="video-wrap">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <p class="center tiny"><i class="fa-solid fa-play"></i> Watch to learn more about my journey and what makes me
+        unique</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <h2 class="section-title center">Get In Touch</h2>
+      <p class="center muted">I’m always open to discussing new projects, opportunities, or collaborations</p>
+
+      <div class="contact-cards">
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h4>Email</h4>
+          <a href="mailto:moazanwaqar@gmail.com">moazanwaqar@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <h4>Phone</h4>
+          <p>0851514718</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <h4>Location</h4>
+          <p>Co. Mayo, Ireland</p>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <div class="row">
+          <input required type="text" name="name" placeholder="Your Name" />
+          <input required type="email" name="email" placeholder="Your Email" />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea required name="message" rows="6" placeholder="Write Your Message"></textarea>
+        <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        <p id="formNote" class="form-note" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand alt">&lt;MW /&gt;</div>
+        <p class="muted tiny">Software Design Student passionate about cloud-native development and building impactful
+          solutions.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://github.com/moazanTUS" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/moazan-w-7b84632a0" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:moazanwaqar@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container rights tiny">
+      <span>Made with <span aria-hidden="true">❤️</span> and <span aria-hidden="true">⚡</span></span>
+      <span>© <span id="year"></span> Moazan Waqar. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Gallery Modal (unchanged) -->
+  <div id="galleryModal" class="gallery-modal" aria-hidden="true" role="dialog" aria-label="Gallery">
+    <div class="gm-inner">
+      <button class="gm-close" aria-label="Close gallery">&times;</button>
+      <h3 id="gm-title"></h3>
+      <p id="gm-count" class="muted tiny"></p>
+      <div class="gm-viewport">
+        <button class="gm-nav prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+        <img id="gm-image" src="" alt="Gallery image">
+        <button class="gm-nav next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      <div class="gm-thumbs" id="gm-thumbs"></div>
+    </div>
+    <div class="gm-backdrop"></div>
+  </div>
+
+
+</body>
+
+</html>
